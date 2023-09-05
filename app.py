@@ -75,7 +75,7 @@ def main():
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = None
 
-    st.header("PDFAI by craftersAI :books:")
+    st.header("PDF-AI by craftersAI :books:")
     user_question = st.text_input("Chat:")
     if user_question:
         handle_userinput(user_question)
