@@ -66,7 +66,7 @@ def handle_userinput(user_question):
 
 def main():
     load_dotenv()
-    st.set_page_config(page_title="PDFAI by craftersAI",
+    st.set_page_config(page_title="PDF-AI by craftersAI",
                        page_icon=":books:")
     st.write(css, unsafe_allow_html=True)
 
